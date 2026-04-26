@@ -15,10 +15,13 @@ top so we don't lose offsets to small instruction-encoding changes.
 ```
 offsets/  valorant-offsets-YYYY-MM-DD.txt   <- one snapshot per Riot patch
 runs/     dump-run-YYYY-MM-DD.md            <- environment / coverage / notes for that run
+docs/     research specs + IDA MCP string tables (no binaries)
 ```
 
 Each file is self-contained and dated. Pick the one that matches the
-build of VALORANT you're working with.
+build of VALORANT you're working with. For **sig vs struct discipline**, full
+IDA `find_regex` synthesis, and reference JSON, start at
+[`docs/SDK_DIRECTORY_INDEX.md`](docs/SDK_DIRECTORY_INDEX.md).
 
 ## Latest snapshot
 

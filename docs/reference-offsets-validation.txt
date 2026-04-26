@@ -1,0 +1,23 @@
+﻿Reference Dataset Validation Report
+==================================
+Status: OK
+Totals: total_lines=219 parsed_entries=97 skipped_lines=122 duplicate_keys=0 conflicting_values=0
+
+Category Counts:
+- Bones & Mesh (1P/3P): 14
+- Combat & Damage Logic: 9
+- Core Engine: 9
+- Game Settings & UI: 9
+- Key Functions: 8
+- Player & Actor: 20
+- PlayerState & ESP Extras: 10
+- Spike / Bomb Logic: 4
+- Weapon, Inventory & Cosmetics: 9
+- World & Level: 5
+
+Warnings:
+- none
+
+Interpretation:
+- Treated as reference-only input.
+- Must be validated by runtime scanners before use.

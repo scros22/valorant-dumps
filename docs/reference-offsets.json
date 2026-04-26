@@ -1,0 +1,609 @@
+﻿{
+    "schema":  "reference-offsets.v1",
+    "summary":  {
+                    "total_lines":  219,
+                    "parsed_entries":  97,
+                    "skipped_lines":  122,
+                    "duplicate_keys":  0,
+                    "conflicting_values":  0
+                },
+    "categories":  {
+                       "Player \u0026 Actor":  20,
+                       "Combat \u0026 Damage Logic":  9,
+                       "World \u0026 Level":  5,
+                       "Core Engine":  9,
+                       "PlayerState \u0026 ESP Extras":  10,
+                       "Weapon, Inventory \u0026 Cosmetics":  9,
+                       "Spike / Bomb Logic":  4,
+                       "Game Settings \u0026 UI":  9,
+                       "Bones \u0026 Mesh (1P/3P)":  14,
+                       "Key Functions":  8
+                   },
+    "entries":  [
+                    {
+                        "category":  "Core Engine",
+                        "key":  "GWorld",
+                        "value_hex":  "0xC1AD2A0",
+                        "line":  4
+                    },
+                    {
+                        "category":  "Core Engine",
+                        "key":  "FNamePool",
+                        "value_hex":  "0xC34B800",
+                        "line":  5
+                    },
+                    {
+                        "category":  "Core Engine",
+                        "key":  "FNameState",
+                        "value_hex":  "0xC536280",
+                        "line":  6
+                    },
+                    {
+                        "category":  "Core Engine",
+                        "key":  "FNameKey",
+                        "value_hex":  "0x40",
+                        "line":  7
+                    },
+                    {
+                        "category":  "Core Engine",
+                        "key":  "ProcessEvent",
+                        "value_hex":  "0x1B74230",
+                        "line":  8
+                    },
+                    {
+                        "category":  "Core Engine",
+                        "key":  "FMemoryMalloc",
+                        "value_hex":  "0x1747C10",
+                        "line":  9
+                    },
+                    {
+                        "category":  "Core Engine",
+                        "key":  "TriggerVeh",
+                        "value_hex":  "0x177F496",
+                        "line":  10
+                    },
+                    {
+                        "category":  "Core Engine",
+                        "key":  "StaticFindObject",
+                        "value_hex":  "0x1BA05C0",
+                        "line":  11
+                    },
+                    {
+                        "category":  "Core Engine",
+                        "key":  "StaticLoadObject",
+                        "value_hex":  "0x1BA40F0",
+                        "line":  12
+                    },
+                    {
+                        "category":  "Key Functions",
+                        "key":  "BoneMatrix",
+                        "value_hex":  "0x40EBC10",
+                        "line":  16
+                    },
+                    {
+                        "category":  "Key Functions",
+                        "key":  "SetOutlineMode",
+                        "value_hex":  "0x407F040",
+                        "line":  17
+                    },
+                    {
+                        "category":  "Key Functions",
+                        "key":  "GetSpreadValues",
+                        "value_hex":  "0x6F04280",
+                        "line":  18
+                    },
+                    {
+                        "category":  "Key Functions",
+                        "key":  "GetSpreadAngles",
+                        "value_hex":  "0x62DEAA0",
+                        "line":  19
+                    },
+                    {
+                        "category":  "Key Functions",
+                        "key":  "GetFiringLoc",
+                        "value_hex":  "0x6AA7A30",
+                        "line":  20
+                    },
+                    {
+                        "category":  "Key Functions",
+                        "key":  "VecNormalize",
+                        "value_hex":  "0x1847290",
+                        "line":  21
+                    },
+                    {
+                        "category":  "Key Functions",
+                        "key":  "AngleNormalize",
+                        "value_hex":  "0x1841A90",
+                        "line":  22
+                    },
+                    {
+                        "category":  "Key Functions",
+                        "key":  "PlayFinisher",
+                        "value_hex":  "0x62424D0",
+                        "line":  23
+                    },
+                    {
+                        "category":  "World \u0026 Level",
+                        "key":  "PersistentLevel",
+                        "value_hex":  "0x38",
+                        "line":  27
+                    },
+                    {
+                        "category":  "World \u0026 Level",
+                        "key":  "GameState",
+                        "value_hex":  "0x178",
+                        "line":  28
+                    },
+                    {
+                        "category":  "World \u0026 Level",
+                        "key":  "Levels",
+                        "value_hex":  "0x190",
+                        "line":  29
+                    },
+                    {
+                        "category":  "World \u0026 Level",
+                        "key":  "OwningGameInstance",
+                        "value_hex":  "0x1D8",
+                        "line":  30
+                    },
+                    {
+                        "category":  "World \u0026 Level",
+                        "key":  "ClientGameInstance",
+                        "value_hex":  "0x2B8",
+                        "line":  31
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "ActorArray",
+                        "value_hex":  "0xA0",
+                        "line":  35
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "LocalPlayer",
+                        "value_hex":  "0x40",
+                        "line":  36
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "PlayerController",
+                        "value_hex":  "0x38",
+                        "line":  37
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "AcknowledgedPawn",
+                        "value_hex":  "0x510",
+                        "line":  38
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "PlayerState",
+                        "value_hex":  "0x480",
+                        "line":  39
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "PawnPrivate",
+                        "value_hex":  "0x4E0",
+                        "line":  40
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "TeamComponent",
+                        "value_hex":  "0x6A0",
+                        "line":  41
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "CameraManager",
+                        "value_hex":  "0x520",
+                        "line":  42
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "CameraCachePriv",
+                        "value_hex":  "0x20A0",
+                        "line":  43
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "ControlRotation",
+                        "value_hex":  "0x4E0",
+                        "line":  44
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "RootComponent",
+                        "value_hex":  "0x288",
+                        "line":  45
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "RelativeLocation",
+                        "value_hex":  "0x170",
+                        "line":  46
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "RelativeRotation",
+                        "value_hex":  "0x188",
+                        "line":  47
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "RelativeScale3D",
+                        "value_hex":  "0x1A0",
+                        "line":  48
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "ComponentVelocity",
+                        "value_hex":  "0x1B8",
+                        "line":  49
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "DamageHandler",
+                        "value_hex":  "0xC68",
+                        "line":  50
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "BlindManager",
+                        "value_hex":  "0xA28",
+                        "line":  51
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "BoundsScale",
+                        "value_hex":  "0x47C",
+                        "line":  52
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "LastSubmitTime",
+                        "value_hex":  "0x480",
+                        "line":  53
+                    },
+                    {
+                        "category":  "Player \u0026 Actor",
+                        "key":  "LastRenderTime",
+                        "value_hex":  "0x484",
+                        "line":  54
+                    },
+                    {
+                        "category":  "PlayerState \u0026 ESP Extras",
+                        "key":  "PlayerID",
+                        "value_hex":  "0x460",
+                        "line":  58
+                    },
+                    {
+                        "category":  "PlayerState \u0026 ESP Extras",
+                        "key":  "Ping",
+                        "value_hex":  "0x464",
+                        "line":  59
+                    },
+                    {
+                        "category":  "PlayerState \u0026 ESP Extras",
+                        "key":  "PlatformPlayer",
+                        "value_hex":  "0x698",
+                        "line":  60
+                    },
+                    {
+                        "category":  "PlayerState \u0026 ESP Extras",
+                        "key":  "SpectatedPlayer",
+                        "value_hex":  "0x6F0",
+                        "line":  61
+                    },
+                    {
+                        "category":  "PlayerState \u0026 ESP Extras",
+                        "key":  "HideAccountLevel",
+                        "value_hex":  "0x758",
+                        "line":  62
+                    },
+                    {
+                        "category":  "PlayerState \u0026 ESP Extras",
+                        "key":  "AccountLevel",
+                        "value_hex":  "0x75C",
+                        "line":  63
+                    },
+                    {
+                        "category":  "PlayerState \u0026 ESP Extras",
+                        "key":  "CompetitiveTier",
+                        "value_hex":  "0x760",
+                        "line":  64
+                    },
+                    {
+                        "category":  "PlayerState \u0026 ESP Extras",
+                        "key":  "WasInvisible",
+                        "value_hex":  "0xF52",
+                        "line":  65
+                    },
+                    {
+                        "category":  "PlayerState \u0026 ESP Extras",
+                        "key":  "WasIntangible",
+                        "value_hex":  "0xF53",
+                        "line":  66
+                    },
+                    {
+                        "category":  "PlayerState \u0026 ESP Extras",
+                        "key":  "WasAlly",
+                        "value_hex":  "0xF58",
+                        "line":  67
+                    },
+                    {
+                        "category":  "Combat \u0026 Damage Logic",
+                        "key":  "CachedLife",
+                        "value_hex":  "0x200",
+                        "line":  71
+                    },
+                    {
+                        "category":  "Combat \u0026 Damage Logic",
+                        "key":  "bAlive (Damageable)",
+                        "value_hex":  "0x1F9",
+                        "line":  72
+                    },
+                    {
+                        "category":  "Combat \u0026 Damage Logic",
+                        "key":  "DamageSections",
+                        "value_hex":  "0x1E8",
+                        "line":  73
+                    },
+                    {
+                        "category":  "Combat \u0026 Damage Logic",
+                        "key":  "Life (Section)",
+                        "value_hex":  "0x124",
+                        "line":  74
+                    },
+                    {
+                        "category":  "Combat \u0026 Damage Logic",
+                        "key":  "MaxLife (Section)",
+                        "value_hex":  "0x128",
+                        "line":  75
+                    },
+                    {
+                        "category":  "Combat \u0026 Damage Logic",
+                        "key":  "bAlive (Section)",
+                        "value_hex":  "0x120",
+                        "line":  76
+                    },
+                    {
+                        "category":  "Combat \u0026 Damage Logic",
+                        "key":  "LocalBlindState",
+                        "value_hex":  "0x118",
+                        "line":  77
+                    },
+                    {
+                        "category":  "Combat \u0026 Damage Logic",
+                        "key":  "GunRecoveryTime",
+                        "value_hex":  "0x1B90",
+                        "line":  78
+                    },
+                    {
+                        "category":  "Combat \u0026 Damage Logic",
+                        "key":  "Stability_Mobile",
+                        "value_hex":  "0x1108",
+                        "line":  79
+                    },
+                    {
+                        "category":  "Weapon, Inventory \u0026 Cosmetics",
+                        "key":  "Inventory",
+                        "value_hex":  "0xC08",
+                        "line":  83
+                    },
+                    {
+                        "category":  "Weapon, Inventory \u0026 Cosmetics",
+                        "key":  "CurrentEquippable",
+                        "value_hex":  "0x248",
+                        "line":  84
+                    },
+                    {
+                        "category":  "Weapon, Inventory \u0026 Cosmetics",
+                        "key":  "EquippableModels",
+                        "value_hex":  "0xE8",
+                        "line":  85
+                    },
+                    {
+                        "category":  "Weapon, Inventory \u0026 Cosmetics",
+                        "key":  "TotemModels",
+                        "value_hex":  "0x338",
+                        "line":  86
+                    },
+                    {
+                        "category":  "Weapon, Inventory \u0026 Cosmetics",
+                        "key":  "CharmMap",
+                        "value_hex":  "0x438",
+                        "line":  87
+                    },
+                    {
+                        "category":  "Weapon, Inventory \u0026 Cosmetics",
+                        "key":  "SkinDataAsset",
+                        "value_hex":  "0xFB0",
+                        "line":  88
+                    },
+                    {
+                        "category":  "Weapon, Inventory \u0026 Cosmetics",
+                        "key":  "CharmDataAsset",
+                        "value_hex":  "0xFD8",
+                        "line":  89
+                    },
+                    {
+                        "category":  "Weapon, Inventory \u0026 Cosmetics",
+                        "key":  "CosmeticRandomSeed",
+                        "value_hex":  "0x1060",
+                        "line":  90
+                    },
+                    {
+                        "category":  "Weapon, Inventory \u0026 Cosmetics",
+                        "key":  "AttachName",
+                        "value_hex":  "0xFFC",
+                        "line":  91
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "ComponentToWorld",
+                        "value_hex":  "0x2D0",
+                        "line":  95
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "MeshComponent",
+                        "value_hex":  "0x4E8",
+                        "line":  96
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "BoneArray",
+                        "value_hex":  "0x738",
+                        "line":  97
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "BoneCount",
+                        "value_hex":  "0x740",
+                        "line":  98
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "BoneArrayCache",
+                        "value_hex":  "0x748",
+                        "line":  99
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "bForceWireframe",
+                        "value_hex":  "0x906",
+                        "line":  100
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "Mesh1P (AresEquip)",
+                        "value_hex":  "0xDD8",
+                        "line":  101
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "Mesh3P (AresEquip)",
+                        "value_hex":  "0xDE8",
+                        "line":  102
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "Mesh1P (Character)",
+                        "value_hex":  "0xF30",
+                        "line":  103
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "MeshOverlay1P",
+                        "value_hex":  "0xF38",
+                        "line":  104
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "Mesh3PMIDs",
+                        "value_hex":  "0xF80",
+                        "line":  105
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "Mesh1PMIDs",
+                        "value_hex":  "0xF90",
+                        "line":  106
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "Mesh1POverlayMIDs",
+                        "value_hex":  "0xFA0",
+                        "line":  107
+                    },
+                    {
+                        "category":  "Bones \u0026 Mesh (1P/3P)",
+                        "key":  "ProcMeshBodySetup",
+                        "value_hex":  "0x6E8",
+                        "line":  108
+                    },
+                    {
+                        "category":  "Spike / Bomb Logic",
+                        "key":  "BombTimeRemaining",
+                        "value_hex":  "0x5A8",
+                        "line":  112
+                    },
+                    {
+                        "category":  "Spike / Bomb Logic",
+                        "key":  "PlantedAtSite",
+                        "value_hex":  "0x5B8",
+                        "line":  113
+                    },
+                    {
+                        "category":  "Spike / Bomb Logic",
+                        "key":  "BombDefused",
+                        "value_hex":  "0x5B9",
+                        "line":  114
+                    },
+                    {
+                        "category":  "Spike / Bomb Logic",
+                        "key":  "DefuseProgress",
+                        "value_hex":  "0x5D0",
+                        "line":  115
+                    },
+                    {
+                        "category":  "Game Settings \u0026 UI",
+                        "key":  "GameUserSettings",
+                        "value_hex":  "0x320",
+                        "line":  119
+                    },
+                    {
+                        "category":  "Game Settings \u0026 UI",
+                        "key":  "AresSettingsManager",
+                        "value_hex":  "0x200",
+                        "line":  120
+                    },
+                    {
+                        "category":  "Game Settings \u0026 UI",
+                        "key":  "bUseVSync",
+                        "value_hex":  "0x30",
+                        "line":  121
+                    },
+                    {
+                        "category":  "Game Settings \u0026 UI",
+                        "key":  "ResolutionSizeX",
+                        "value_hex":  "0x90",
+                        "line":  122
+                    },
+                    {
+                        "category":  "Game Settings \u0026 UI",
+                        "key":  "ResolutionSizeY",
+                        "value_hex":  "0x94",
+                        "line":  123
+                    },
+                    {
+                        "category":  "Game Settings \u0026 UI",
+                        "key":  "FloatSettingValues",
+                        "value_hex":  "0x330",
+                        "line":  124
+                    },
+                    {
+                        "category":  "Game Settings \u0026 UI",
+                        "key":  "IntSettingValues",
+                        "value_hex":  "0x380",
+                        "line":  125
+                    },
+                    {
+                        "category":  "Game Settings \u0026 UI",
+                        "key":  "BoolSettingValues",
+                        "value_hex":  "0x3D0",
+                        "line":  126
+                    },
+                    {
+                        "category":  "Game Settings \u0026 UI",
+                        "key":  "StringSettingValues",
+                        "value_hex":  "0x420",
+                        "line":  127
+                    }
+                ],
+    "warnings":  [
+
+                 ]
+}
