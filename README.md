@@ -10,6 +10,22 @@ source, no game code. The patterns this is based on come from the
 community signature set, with extra patch-resilient fallbacks layered on
 top so we don't lose offsets to small instruction-encoding changes.
 
+<p align="center">
+  <a href="https://github.com/scros22/valorant-dumps/blob/main/docs/valorant-offsets-fresh.txt"
+    title="Pattern-scan RVAs + full reference-offsets.json (one file)">
+    <img src="https://img.shields.io/badge/Fresh_merged_SDK-open-00C853?style=for-the-badge&logo=github&logoColor=white"
+      alt="Open the freshest merged SDK offsets file">
+  </a>
+  &nbsp;
+  <a href="https://raw.githubusercontent.com/scros22/valorant-dumps/main/docs/valorant-offsets-fresh.txt"
+    title="Direct raw text (curl-friendly)">
+    <img src="https://img.shields.io/badge/Raw_text-one_click-24292F?style=for-the-badge&logo=github&logoColor=white"
+      alt="Download raw valorant-offsets-fresh.txt">
+  </a>
+</p>
+
+**That file** = Section **A** (`.text` pattern scan from `offsets/`) + Section **B** (every row from [`docs/reference-offsets.json`](docs/reference-offsets.json), validate per patch) + Tier2 `// Missing` footer. Regenerate: `cd docs && python gen_valorant_offsets_fresh.py`.
+
 ## What's here
 
 ```
@@ -22,12 +38,6 @@ Each file is self-contained and dated. Pick the one that matches the
 build of VALORANT you're working with. For **sig vs struct discipline**, full
 IDA `find_regex` synthesis, and reference JSON, start at
 [`docs/SDK_DIRECTORY_INDEX.md`](docs/SDK_DIRECTORY_INDEX.md).
-
-[`docs/valorant-offsets-fresh.txt`](docs/valorant-offsets-fresh.txt) merges **(A)** the
-latest `.text` pattern-scan RVAs from `offsets/` with **(B)** every entry from
-[`docs/reference-offsets.json`](docs/reference-offsets.json) (struct / gameplay
-offsets — validate per patch). Regenerate from `docs/` with
-`python gen_valorant_offsets_fresh.py`.
 
 ## Latest snapshot
 
