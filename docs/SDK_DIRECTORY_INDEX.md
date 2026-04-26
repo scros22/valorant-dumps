@@ -18,7 +18,7 @@ This public repo’s **canonical** artifacts remain dated **`offsets/*.txt`** an
 | **Reference ingest report** | [`reference-offsets-validation.txt`](reference-offsets-validation.txt) |
 | **Full IDA MCP `find_regex` tables** (machine-generated) | [`ida-mcp-synthesized.md`](ida-mcp-synthesized.md) |
 | **Curated high-signal string VAs** | [`IDA_CURATED_ANCHORS.md`](IDA_CURATED_ANCHORS.md) |
-| **Latest scan duplicate** | [`valorant-offsets-fresh.txt`](valorant-offsets-fresh.txt) |
+| **Merged scan + full reference sheet** | [`valorant-offsets-fresh.txt`](valorant-offsets-fresh.txt) (regenerate with [`gen_valorant_offsets_fresh.py`](gen_valorant_offsets_fresh.py)) |
 
 ---
 
@@ -35,8 +35,9 @@ docs/      specs + IDA string synthesis      ← this index + matrices + JSON re
 ## Maintainer workflow (sync into this repo)
 
 1. Re-run the offline dumper / pattern scanner; refresh `offsets/*.txt` and `runs/*.md`.  
-2. Re-run IDA MCP `find_regex` batch + `summarize_out.py` → replace `docs/ida-mcp-synthesized.md`.  
-3. Update `docs/IDA_CURATED_ANCHORS.md` with any new human-picked xref starting points.  
-4. Commit with the patch date in the message.
+2. From `docs/`: `python gen_valorant_offsets_fresh.py` → updates `valorant-offsets-fresh.txt` (pattern RVAs + all `reference-offsets.json` rows + missing list).  
+3. Re-run IDA MCP `find_regex` batch + `summarize_out.py` → replace `docs/ida-mcp-synthesized.md`.  
+4. Update `docs/IDA_CURATED_ANCHORS.md` with any new human-picked xref starting points.  
+5. Commit with the patch date in the message.
 
 Pattern definitions (`kTier1` / `kTier2`) live in the private vdumper tree (`src/research/valorant_automation.hpp`); they are **not** mirrored here—only **outputs** and research notes.

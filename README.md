@@ -23,6 +23,12 @@ build of VALORANT you're working with. For **sig vs struct discipline**, full
 IDA `find_regex` synthesis, and reference JSON, start at
 [`docs/SDK_DIRECTORY_INDEX.md`](docs/SDK_DIRECTORY_INDEX.md).
 
+[`docs/valorant-offsets-fresh.txt`](docs/valorant-offsets-fresh.txt) merges **(A)** the
+latest `.text` pattern-scan RVAs from `offsets/` with **(B)** every entry from
+[`docs/reference-offsets.json`](docs/reference-offsets.json) (struct / gameplay
+offsets — validate per patch). Regenerate from `docs/` with
+`python gen_valorant_offsets_fresh.py`.
+
 ## Latest snapshot
 
 | File | Date | Sigs resolved |
