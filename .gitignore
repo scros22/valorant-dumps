@@ -1,0 +1,21 @@
+# IDA Pro temp databases (generated when someone opens an offset file in IDA)
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+
+# Game binaries — never tracked in this repo
+*.exe
+*.dll
+*.pdb
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor state
+.vscode/
+.idea/
+*.swp
